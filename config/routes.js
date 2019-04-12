@@ -23,7 +23,7 @@ function generateToken(user) {
   };
   return jwt.sign(payload, secret.jwtSecret, options);
 }
-
+//
 function register(req, res) {
   // implement user registration
   let user = req.body;
